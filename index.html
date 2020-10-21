@@ -14,7 +14,7 @@
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
+            m = s.getElementsByTagName(o)[0];
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
@@ -155,7 +155,14 @@
 
 
 <!---- PureCloud Widgetv1 Start ---->
-    <script id="purecloud-webchat-js" type="text/javascript" src="https://apps.mypurecloud.com/webchat/jsapi-v1.js" region="us-east-1" org-guid="813113a3-e8f6-487e-96d8-d1f4d294b18c" deployment-key="0b66f603-fe0a-4a14-a387-8888890bdcf2"></script>
+<script
+  id="purecloud-webchat-js"
+  type="text/javascript"
+  src="https://apps.mypurecloud.com/webchat/jsapi-v1.js"
+  region="us-east-1"
+  org-guid="07b4f3bc-fa97-4938-b25a-39cb08baed6e"
+  deployment-key="1365d283-4d0e-4576-9819-dfcd8fec0bee"
+></script>
 <!---- PureCloud Widgetv1 Start ---->
 
     <script>
@@ -172,10 +179,10 @@ $('#chat-button').on('click', function(){
     let chatConfig = {
         webchatAppUrl: "https://apps.mypurecloud.com/webchat",
         webchatServiceUrl: "https://realtime.mypurecloud.com:443",
-        orgId: "18421",
-        orgGuid: "813113a3-e8f6-487e-96d8-d1f4d294b18c",
-        orgName: "knowledgefirstfinancial1",
-        queueName: "Test Chat",
+        orgId: "17907",
+        orgGuid: "07b4f3bc-fa97-4938-b25a-39cb08baed6e",
+        orgName: "psglobalqa",
+        queueName: "Zulu",
         logLevel: "DEBUG",
         locale: "en",
         data: {
@@ -217,10 +224,10 @@ $('#chat-button').on('click', function(){
         reconnectEnabled: true,
 
     //Allowed reconnect to index
-        reconnectOrigins: ['dev-secure.knowledgefirstfinancial.ca','dev-secure.knowledgefirstfinancial.ca/login'],
+    //    reconnectOrigins: ['<site>','<site>'],
     //Cobrowse config 
         cobrowseConfig: {
-            deploymentKey: "i1fRw5w0BUfWGZuyKZucoHAd478BZdC5",
+            deploymentKey: "ViSVpmV75xCGozXVUJTruJll9MdMbzfV",
             },
                 offlineSchedules: [
                     {
